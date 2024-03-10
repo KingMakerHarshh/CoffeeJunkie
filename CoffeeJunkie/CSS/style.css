@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Grand+Hotel&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --slantedText: 'Grand Hotel', cursive;
+    --headingFont: 'Catamaran', sans-serif;
+    --primaryColor: #698f3f;
+    --secondaryColor: #fca311;
+    --mainDark: #3a3e3b;
+    --mainWhite: #fff;
+    --mainGrey: #e5e5e5;
+    /* properties can be `all` key is `0.3s` by default its ease, got for ease-in-out */
+    --mainTransition: all 0.3s ease-in-out;
+    --letterSpacing: 0.5rem
+}
+body{
+    
+}
